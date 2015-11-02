@@ -90,6 +90,10 @@ Let's look at each instruction:
 - `name = gets.chomp` makes the computer wait until you have typed your name into the blue box and pressed `Enter`. It remembers what you typed as `name`.
 - `puts "Hello #{name}!"` makes the computer say *Hello*, followed by the name you typed in.
 
+**Challenges**
+- Can you make the computer ask how old you are?
+- Can you make the computer say "Hello Jonny, Age 9" if I say my name is Jonny and my age is 9?
+
 ## Your Story
 
 It's time to write your story! Use a piece of paper or use a computer to write a story.
@@ -121,3 +125,13 @@ puts "One day, #{person1} and #{person2} went to space! They saw stars and flew 
 ```
 
 Press *Play* and you should be able to see your story!
+
+## Oops!
+
+You might have made a mistake when typing out the code. If you did, you might get an error message like:
+
+```
+(repl):1: unterminated string meets end of file
+```
+
+Don't worry about this. The computer is very stupid and very picky, so you have to type *everything* right before it will work. That includes the quote marks, full stops and brackets!
