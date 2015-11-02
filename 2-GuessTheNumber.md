@@ -24,7 +24,7 @@ else
 end
 ```
 
-There are a lot of differences! Let's look at each *translation*:
+There are a lot of differences! Let's see how we get from English to Ruby:
 
 - *if* stays the same!
 - *the guessed number* turns into `guessed_number`. (The underline between the words is called an *underscore*.)
@@ -35,10 +35,18 @@ There are a lot of differences! Let's look at each *translation*:
 - *say* turns into `puts` again.
 - At the end of the instruction we have had to put `end`. This is to tell the computer that we have reached the end of the things to do for our decision.
 
-Wow, that's a lot of changes! Don't worry if it's confusing, you just need some more practice!
+Wow, that's a lot of changes! Let's put the English and Ruby side-by-side to make it clearer:
+
+```ruby
+if guessed_number == secret_number ## If the guessed number is the same as the secret number
+  puts "Well done!"                ##   say, "Well done!"
+else                               ## If it isn't
+  puts "Sorry, wrong!"             ##   say, "Sorry, wrong!"
+end                                ## End of decision
+```
 
 **Challenges**
-- What do you think would happen if we ran this code when:
+- What do you think the computer would say when:
   - `guessed_number` is 3 and `secret_number` is 6?
   - `guessed_number` is 3 and `secret_number` is 3?
 - The way to say *not the same as* in Ruby is `!=`. Can you write the sentence *If the guessed number is not the same as the secret number* in Ruby?
@@ -64,12 +72,12 @@ else
 end
 ```
 
-When you have typed it in, press the *Play* button.
+When you have typed it in, press the *Run* button.
 
 1. It should ask you to guess the secret number.
 2. Enter a number in the blue box and press `Enter`.
 3. If you get the secret number, you should see *Well done!*. If you didn't, you will see *Sorry, wrong!*.
-4. Press the *Play* button to play again!
+4. Press the *Run* button to play again!
 
 After you have played the game a few times, try to work out what each line in the code does. The answers are below:
 
@@ -81,7 +89,7 @@ Now after a few games you should be able to figure out what the secret number is
 
 ## Too Many Bums!
 
-Pressing the *Play* button every time we want to guess again is boring. I want to let the player keep guessing until they get it right.
+Pressing the *Run* button every time we want to guess again is boring. I want to let the player keep guessing until they get it right.
 
 We can tell the computer to *loop* forever in Ruby using `loop do`. Try this program:
 
@@ -91,7 +99,7 @@ loop do
 end
 ```
 
-Press the *Play* button.
+Press the *Run* button.
 
 **Oh no!** Your blue box will now be full of `BUMBUMBUMBUM`, and you won't be able to stop it! Whatever is between `loop do` and `end` will be done forever!
 
@@ -99,7 +107,7 @@ You will have to refresh the page to stop the `BUM`s. Sorry!
 
 Luckily, Ruby has an instruction to stop doing things forever: `break`. When the computer reads `break`, it will stop the loop and carry on after the `end`.
 
-If you trust me any more, type this program in and press *Play*:
+If you trust me any more, type this program in and press *Run*:
 
 ```ruby
 loop do
@@ -108,7 +116,7 @@ loop do
 end
 ```
 
-If you trusted me you will see only one `BUM` when you press *Play*. One bum is enough, I think.
+If you trusted me you will see only one `BUM` when you press *Run*. One bum is enough, I think.
 
 ## Guess Again!
 
@@ -133,7 +141,7 @@ end                                  ## This is the end of the loop
 
 I won't make you write this code out: [click here](https://repl.it/BWNM/2) to get it in your white box. 
 
-Press *Play* to play the game. You should try some wrong answers before you try the right answer. You should see that the computer will ask you to guess again if you give a wrong answer.
+Press *Run* to play the game. You should try some wrong answers before you try the right answer. You should see that the computer will ask you to guess again if you give a wrong answer.
 
 **Challenges**
 - Change the first line of your code to: `secret_number = rand(10).to_s`. Can you guess the secret number now? Does it stay the same every time?

@@ -34,7 +34,7 @@ puts "BUM"
 
 Make sure you type everything above. You can get a `"` by holding down `Shift` and pressing `2`.
 
-Once you have done this, click the *Play* button (the triangle). If you typed the instruction right, you should see in the blue box:
+Once you have done this, click the *Run* button (the triangle). If you typed the instruction right, you should see in the blue box:
 
 ```
 >
@@ -43,7 +43,7 @@ BUM
 >
 ```
 
-Well done! You made the computer shout *BUM* at you! Every time you press *Play*, the computer will say *BUM*. Try pressing *Play* a few more times to see!
+Well done! You made the computer shout *BUM* at you! Every time you press *Run*, the computer will say *BUM*. Try pressing *Run* a few more times to see!
 
 When the computer sees `puts "BUM"`, it says whatever is between the `"` marks.
 
@@ -68,7 +68,7 @@ There are a few tricky things here:
 - The `#` is usually near the big `Enter` key.
 - You will need to hold `Shift` to get `{` and `}` too. These keys are also near the big `Enter` key.
 
-When you have typed it in, press the *Play* button.
+When you have typed it in, press the *Run* button.
 1. It should ask you for your name!
 2. Type your name in the blue box and press `Enter`.
 3. The computer should say hello to you!
@@ -104,7 +104,7 @@ I've written a little story here. Your story will be better than this!
 One day, Jonny and Sarah went to space! They saw stars and flew past the moon. Jonny played tennis with an alien and Sarah drove the spaceship back to Earth.
 ```
 
-We want to be able to tell the computer the names of the people in the story when we press *Play*, so we need to replace the names in the story with *person1* and *person2*:
+We want to be able to tell the computer the names of the people in the story when we press *Run*, so we need to replace the names in the story with *person1* and *person2*:
 
 ```
 One day, person1 and person2 went to space! They saw stars and flew past the moon. person1 played tennis with an alien and person2 drove the spaceship back to Earth.
@@ -124,7 +124,7 @@ person2 = gets.chomp
 puts "One day, #{person1} and #{person2} went to space! They saw stars and flew past the moon. #{person1} played tennis with an alien and #{person2} drove the spaceship back to Earth."
 ```
 
-Press *Play* and you should be able to see your story!
+Press *Run* and you should be able to see your story!
 
 ## Oops!
 
