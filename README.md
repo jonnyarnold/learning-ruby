@@ -12,7 +12,7 @@ Start at [Chapter 1](1-MyStory.md) and work through the chapters in order.
 
 The aim is to have 8 projects: check out the [Syllabus](Syllabus.md) for a rough draft.
 
-Currently these chapters have not been tested against the target age group. **If you want to use them, please do!** Any feedback would be welcome as a [Github Issue](/jonnyarnold/learning-ruby/issues/new). Specifically, it would be good to know:
+Currently these chapters have not been tested against the target age group. **If you want to use them, please do!** Any feedback would be welcome as a [Github Issue](https://github.com/jonnyarnold/learning-ruby/issues/new). Specifically, it would be good to know:
 
 - What was easy? What was hard? (How much programming have they done before? Do the explanations make sense?)
 - How long do the chapters take to do? (I'm hoping they take 1-2 hours to do.)
