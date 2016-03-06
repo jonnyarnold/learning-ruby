@@ -46,10 +46,11 @@ end                                ## End of decision
 ```
 
 **Challenges**
+
 - What do you think the computer would say when:
   - `guessed_number` is 3 and `secret_number` is 6?
   - `guessed_number` is 3 and `secret_number` is 3?
-- The way to say *not the same as* in Ruby is `!=`. Can you write the sentence *If the guessed number is not the same as the secret number* in Ruby?
+- The way to say *"not the same as"* in Ruby is `!=`. Can you write the sentence *If the guessed number is not the same as the secret number* in Ruby?
 
 ## Guessing the (Not Very) Secret Number
 
@@ -144,4 +145,5 @@ I won't make you write this code out: [click here](https://repl.it/BWNM/2) to ge
 Press *Run* to play the game. You should try some wrong answers before you try the right answer. You should see that the computer will ask you to guess again if you give a wrong answer.
 
 **Challenges**
+
 - Change the first line of your code to: `secret_number = rand(10).to_s`. Can you guess the secret number now? Does it stay the same every time?

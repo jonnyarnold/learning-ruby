@@ -69,6 +69,7 @@ There are a few tricky things here:
 - You will need to hold `Shift` to get `{` and `}` too. These keys are also near the big `Enter` key.
 
 When you have typed it in, press the *Run* button.
+
 1. It should ask you for your name!
 2. Type your name in the blue box and press `Enter`.
 3. The computer should say hello to you!
@@ -87,8 +88,13 @@ Try it again with a different name. See how it changes!
 
 Let's look at each instruction:
 - `puts "What is your name?"` makes the computer say *What is your name?*
-- `name = gets.chomp` makes the computer wait until you have typed your name into the blue box and pressed `Enter`. It remembers what you typed as `name`.
-- `puts "Hello #{name}!"` makes the computer say *Hello*, followed by the name you typed in.
+- `name = gets.chomp` is a new instruction. It *gets* the name from you! The computer will wait until you have typed your name into the blue box and pressed `Enter`. It remembers what you typed as `name`.
+- `puts "Hello #{name}!"` makes the computer say *Hello*, followed by the name you typed in. You can imagine the `#{` and `}` as a gap that is filled in with your name, like on worksheets at school:
+
+```
+Worksheet 1
+Name: _____
+```
 
 **Challenges**
 - Can you make the computer ask how old you are?
@@ -111,6 +117,7 @@ One day, person1 and person2 went to space! They saw stars and flew past the moo
 ```
 
 What does the computer need to do?
+
 1. Ask for the names of the people in the story.
 2. Write out the story with the names in it.
 
